@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowJs": false,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "rootDirs": ["src"],
+    "typeRoots": ["./typings", "./node_modules/@types"]
+  },
+  "include": ["src/**/*", "AppExt/**/*", "dev/**/*", "typings/*"],
+  "exclude": ["node_modules", "**/__tests__/*", "**/__mocks__/*"]
+}
